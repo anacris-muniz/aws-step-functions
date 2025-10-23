@@ -1,0 +1,18 @@
+## 💡 Anotações
+
+- O modelo “Map Distributed” é ideal para processar coleções de dados, como arquivos CSV, de forma paralela e escalável.  
+- A integração S3 → Lambda → SQS exemplifica um pipeline serverless real.  
+- É possível testar e visualizar fluxos sem custo enquanto não forem executados.  
+- O Step Functions permite monitoramento, controle de falhas e paralelismo de forma simples e visual.
+
+---
+
+## Tecnologias Utilizadas
+----------------------------------------------------------------------------------
+| Ferramenta                    |Função                                          |
+|-------------------------------|------------------------------------------------|
+| **AWS Step Functions**        | Criação e orquestração de workflows.           |
+| **AWS Lambda**                | Processamento de cada item do CSV.             |
+| **Amazon S3**                 | Armazenamento do arquivo CSV.                  |
+| **Amazon SQS**                | Recebimento de mensagens de pedidos atrasados. |
+----------------------------------------------------------------------------------
