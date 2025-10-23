@@ -1,2 +1,39 @@
-# aws-step-functions
-Este repositório contem anotações e insights adquiridos sobre Step Functions na AWS.
+# ☁️ AWS Step Functions - Orquestração de Workflows Automatizados
+
+Este repositório foi criado como parte do **laboratório prático da formação AWS Cloud Foundations**, com o objetivo de consolidar o aprendizado sobre **orquestração de serviços e automação de fluxos de trabalho (workflows)** utilizando o **AWS Step Functions**.
+
+---
+
+## Objetivo do Laboratório
+
+O laboratório tem como propósito **compreender e aplicar o conceito de orquestração de serviços** na nuvem AWS.  
+O **AWS Step Functions** permite integrar diferentes serviços da AWS (como Lambda, S3, DynamoDB, SNS, SQS etc.) em **fluxos de trabalho automatizados e visuais**, reduzindo a necessidade de código (*Low-Code*).
+
+Este projeto demonstra como o Step Functions pode:
+- Coordenar a execução de múltiplos serviços.
+- Implementar decisões lógicas (Choice States).
+- Automatizar tarefas e rotinas recorrentes.
+- Simplificar o monitoramento e a manutenção de processos.
+
+---
+
+##  Conceitos Fundamentais
+
+| Conceito | Descrição |
+|-----------|------------|
+| **Step Functions** | Serviço de orquestração que conecta componentes de aplicações distribuídas e microserviços. |
+| **State Machine (Máquina de Estado)** | Representa o fluxo de trabalho, com etapas (estados) conectadas entre si. |
+| **Task (Tarefa)** | Uma ação individual do fluxo (ex: executar Lambda, consultar S3, enviar mensagem SNS). |
+| **Choice (Escolha)** | Estado de decisão que direciona o fluxo conforme condições lógicas. |
+| **Pass (Passagem)** | Estado que apenas passa dados adiante, sem executar tarefas. |
+| **Wait (Espera)** | Introduz um atraso temporário antes da próxima etapa. |
+| **Parallel (Paralelo)** | Executa múltiplas ramificações simultaneamente. |
+| **Fail / Succeed** | Define a conclusão do fluxo, seja com sucesso ou falha. |
+
+---
+
+## 🧩 Estrutura do Workflow 
+
+Este workflow tem como objetivo demonstrar o funcionamento do Map State no AWS Step Functions, permitindo processar múltiplos arquivos armazenados no S3 de forma paralela.
+
+Observação: Este workflow foi criado a partir de um modelo da AWS, apenas para estudo e compreensão do funcionamento do Map State e Step Functions.
