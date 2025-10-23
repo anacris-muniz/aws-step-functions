@@ -34,6 +34,14 @@ Este projeto demonstra como o Step Functions pode:
 
 ## 🧩 Estrutura do Workflow 
 
-Este workflow tem como objetivo demonstrar o funcionamento do Map State no AWS Step Functions, permitindo processar múltiplos arquivos armazenados no S3 de forma paralela.
+O workflow tem como objetivo demonstrar o funcionamento do Map State no AWS Step Functions, permitindo processar múltiplos arquivos armazenados no S3 de forma paralela.
 
-Observação: Este workflow foi criado a partir de um modelo da AWS, apenas para estudo e compreensão do funcionamento do Map State e Step Functions.
+Observação: O workflow foi criado a partir de um modelo da AWS, apenas para estudo e compreensão do funcionamento do Map State e Step Functions, mas tem como criar seu próprio fluxo de trabalho do zero.
+
+## 🏁 Conclusão
+
+Este laboratório demonstrou o uso prático de **modelos pré-criados do AWS Step Functions**, especificamente o **“Map Distributed”**, para orquestrar **processamento paralelo de dados**.  
+
+O Step Functions provou ser uma ferramenta poderosa para **automação, escalabilidade e monitoramento de workflows serverless**, permitindo integrar facilmente múltiplos serviços da AWS com lógica de decisão e paralelismo controlado.
+
+> “O fluxo de dados ganha vida quando a automação encontra a escalabilidade — e o Step Functions é a ponte entre o código e o resultado.”
