@@ -1,0 +1,9 @@
+#  Etapas Realizadas
+
+1. Acesso ao serviço **AWS Step Functions** no console da AWS.  
+2. Seleção do modelo **“Map Distributed”** disponível na criação de máquina de estado.  
+3. Configuração do fluxo para processar o arquivo CSV do S3.  
+4. Definição da **função Lambda** que verifica pedidos atrasados.  
+5. Configuração da fila **SQS** para receber mensagens de pedidos atrasados.  
+6. Salvamento do projeto sem execução (apenas estudo e teste visual).  
+7. Captura de tela do diagrama do workflow.
