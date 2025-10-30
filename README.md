@@ -4,7 +4,7 @@ Este repositório foi criado como parte do **laboratório prático da formação
 
 ---
 
-## Objetivo do Laboratório
+## Objetivo 
 
 O laboratório tem como propósito **compreender e aplicar o conceito de orquestração de serviços** na nuvem AWS.  
 O **AWS Step Functions** permite integrar diferentes serviços da AWS (como Lambda, S3, DynamoDB, SNS, SQS etc.) em **fluxos de trabalho automatizados e visuais**, reduzindo a necessidade de código (*Low-Code*).
@@ -44,4 +44,3 @@ Este laboratório demonstrou o uso prático de **modelos pré-criados do AWS Ste
 
 O Step Functions provou ser uma ferramenta poderosa para **automação, escalabilidade e monitoramento de workflows serverless**, permitindo integrar facilmente múltiplos serviços da AWS com lógica de decisão e paralelismo controlado.
 
-> “O fluxo de dados ganha vida quando a automação encontra a escalabilidade — e o Step Functions é a ponte entre o código e o resultado.”
